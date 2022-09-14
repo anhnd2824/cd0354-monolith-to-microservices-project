@@ -1,5 +1,5 @@
 # Use NodeJS base image
-FROM node:12
+FROM --platform=linux/amd64 node:12
 
 # Create app directory
 WORKDIR /usr/src/app
